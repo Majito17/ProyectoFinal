@@ -2,10 +2,10 @@
 
 ## Juego De Bingo
 ###### Este proyecto esta realizado por: 
-    **Nicolas Sanchez**
-    **Sebastian Suarez**
-    **Maria Paula Domínguez**
-    **Maria Jose Gómez** 
+    Nicolas Sanchez
+    Sebastian Suarez
+    Maria Paula Domínguez
+    Maria Jose Gómez 
  
 # Introducción
 
