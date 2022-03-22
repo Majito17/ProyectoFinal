@@ -13,4 +13,6 @@
   Asi que por que no, hagamos un bingo.
   Este juego lo has debido jugar con tu familia de forma repetitiva, y si no definitivamente lo has jugado por lo menos una vez, sabemos perfectamente que aunque no es tu favorito saca risas sinceras y momentos para recordar, y por que no poder jugarlo de forma virtual y aun mejor haberlo hecho por ti mismo. Asi que con esto damos razon a que algo tan comun como el bingo puedes hacerlo de forma programable para que puedas jugarlo tan apasionadamente como si lo jugaras con tu familia alrededor.
  
-#
+# ¿Por Que Bingo?
+  La decisión de realizar un bingo como proyecto final nace de la oportunidad de aplicar gran parte de lo aprendido a lo largo de la clase en un solo código, desde el uso de bucles con while y range, condicionales if, elif, else, hasta el uso de matrices, todo en un solo gran código. También reforzamos la lógica que se necesita para construir un juego que contiene un buen número de reglas y diversos caminos según la cantidad cartones a jugar y la forma de juego en el cartón. 
+Por lo tanto, en nuestro bingo, es posible jugar con diversos cartones y varias personas y, a medida que vayan saliendo números que aparezcan en los cartones, estos van a ser reemplazados por una equis (X), asimismo, una vez que exista un cartón ganador, el código será capaz de detectarlo. Tomamos un juego clásico familiar, que es jugado físicamente y lo llevamos a un formato virtual.  
