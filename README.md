@@ -2,10 +2,10 @@
 
 ## Juego De Bingo
 ###### Este proyecto esta realizado por: 
-    Nicolas Sanchez
-    Sebastian Suarez
-    Maria Paula Domínguez
-    Maria Jose Gómez 
+    Nicolás Sánchez
+    Sebastián Suárez
+    María Paula Domínguez
+    María José Gómez 
  
 # Introducción
 ¿Alguna vez has querido saber cómo se programa un videojuego? 
