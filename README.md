@@ -1,12 +1,13 @@
-# ProyectoFinal : Alegoritmos y Programación
+# Proyecto Final : Algoritmos y Programación
 
-##Juego de Bingo
-
-###Este proyecto esta realizado por: 
+## Juego De Bingo
+###### Este proyecto esta realizado por: 
     -Nicolas Sanchez
     -Sebastian Suarez
     -Maria Paula Dominguez
     -Maria Jose Gómez 
  
- 
-#Introducción
+# Introducción
+
+
+#
