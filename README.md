@@ -46,7 +46,9 @@ Utilizamos la clase “Label” para las letras y la clase “Button” para los
 
 Utilizamos una función para conectar el botón de sorteo al Label de que nos permite ver los números aleatorios, el botón contiene un comando para que cada vez que este sea oprimido, cambie el número aleatoriamente entre 1 y 75. También, para poder jugar con otros cartones tenemos el botón de “Nuevo cartón” que permitiría al usuario tener un nuevo cartón o si se está jugando con otros usuarios.
 
+<img src="https://user-images.githubusercontent.com/98360570/159754275-d91b8621-6695-4df3-b085-17f99140e587.PNG" width="250" height="150" />
 
+El código del prototipo de la interfaz se divide en tres, en la primera parte podemos encontrar la vista general de la ventana, cómo luce y su tamaño. En la segunda parte encontramos cómo se construyó el BINGO, utilizando la clase Label y distinguiendo cada letra colores diferentes, tenemos el relieve GROOVE para darle ese efecto de botón, aunque no lo sea. En la tercera parte, y la más larga, son los números, utilizando la clase Button para crear un ecosistema más interactivo y permitirle al usuario cubrir los números que ya han salido. Por último, encontramos los widgets de la derecha, el botón de “Nuevo cartón” y el de “Sortear” que también fueron usados con la clase Button y finalmente, encontramos la pantalla de los números, donde se utilizó la clase Label y para dar el efecto pantalla el relieve SUNKEN, con fondo blanco. 
 
 # Conclusión
 
