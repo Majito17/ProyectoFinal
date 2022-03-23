@@ -60,3 +60,4 @@ Es una realidad que amplio nuestro conocimiento, nos puso al limite por errores 
 -	Bingo como se Juega Paso a Paso. (2022, 22 marzo). Grand Hotelier. https://grandhotelier.com/bingo/
 -	EcuRed. (2019, 3 septiembre). Visual Studio Code - EcuRed. https://www.ecured.cu/Visual_Studio_Code
 -	Santander Universidades. (2022, 1 marzo). ¿Qué es Python? | Blog. Becas Santander. https://www.becas-santander.com/es/blog/python-que-es.html
+-	Python Software Foundation.(s.f.). Interface de Python para Tcl/Tk. https://docs.python.org/es/3/library/tkinter.html
