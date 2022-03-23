@@ -30,6 +30,14 @@ Es importante resaltar que Python es un lenguaje de programación imprescindible
 
 Es un editor de código fuente desarrollado por Microsoft para multiples plataformas. También es personalizable, de modo que los usuarios pueden cambiar el tema del editor, los métodos abreviados de teclado y las preferencias. Cuenta con herramientas de Debug hasta opciones para actualización en tiempo real de nuestro código en la vista del navegador y compilación en vivo de los lenguajes que lo requieran. Su papel fue ser el editor de texto que usamos para el desarrollo del proyecto.
 
+## Tkinter
+
+Se trata de un paquete de herramientas o librería de Python que nos permite la programación de interfaces graficas (GUI), ya viene por defecto, así que no es necesaria su instalación. Es una librería sencilla de entender y para crear interfaces de usuario prácticas, simples y rápidas. Importamos la librería como “Import tkinter”, ya que existen otras formas de importarla por completo, pero en este caso fuimos nombrando según los elementos de la librería que se iba utilizando.
+
+## ¿Y la interfaz del Bingo?
+
+Buscamos hacer un prototipo de interfaz sencillo de comprender, donde todos los jugadores puedan interactuar. Al ver la interfaz, lo que buscamos que sea más llamativo es el cartón, donde resaltamos las letras por colores y luego continuamos con una cuadricula 5x5 donde encontramos los números, a la letra B le corresponden de 1 al 15, a la letra I del 16 al 30, la letra N del 31 al 45, la letra G del 46 al 60 y la letra O del 61 al 75. 
+
 # Conclusión
 
 Al pensar en automatizacion de un bingo puedes pensar primero que es bastante sencillo o tiene una idea muy básica de cómo será pero luego comienzan a salir los errores, no que los numeros no se pueden repetir, que en los cartones no logramos organizarnos como eran, como hay que divividir en los cartones. Pero la forma de solucionar estos problemas  fue algo muy útil, la mente de todos, esta siempre estuvo trabajando y dando alguno algún tipo de idea y con estos comentarios, a alguno se le iluminara la mente hasta el punto en el que logramos compactar y llevar el error a un codigo funcional pero con las ideas de todos, nos pudimos dar cuenta que atraves de los errores cambio la forma de ver el codigo, pues para la ultima parte tuvimos un error en donde no servian varios cartones entonces lo que ayudo a solucionar el problema fue un debuggin, esto logro a solucionar ese problema y tambien  pudimos entender el por que existia el error, a demas de que es curioso como tuvimos que investigar pues usamos herramientas como la mezcla de conceptos, un ejemplo son las listas, tambien investigamos conceptos que efectivamente nuestro profesor no explico. 
