@@ -42,6 +42,11 @@ Buscamos hacer un prototipo de interfaz sencillo de comprender, donde todos los 
 
 Utilizamos la clase “Label” para las letras y la clase “Button” para los números, cada una de estas clases contiene parámetros para que se le dé forma a la clase, como lo es texto, la fuente, color de texto, de fondo y como se quiere que luzca en general, de esta manera, cuando el cartón tenga uno de los números al sortear, al darle clic se reemplazará por una X, lo que en el código del Bingo vendría siendo el 0, y de esta manera llenar el cartón. Para que funcionara este procedimiento con cada uno utilizamos una función que utiliza un comando en cada una de las casillas. 
 
+<img src="https://user-images.githubusercontent.com/98360570/159753595-793558d9-650e-4945-aafb-e4050a3e009c.PNG" width="600" height="200" />
+
+Utilizamos una función para conectar el botón de sorteo al Label de que nos permite ver los números aleatorios, el botón contiene un comando para que cada vez que este sea oprimido, cambie el número aleatoriamente entre 1 y 75. También, para poder jugar con otros cartones tenemos el botón de “Nuevo cartón” que permitiría al usuario tener un nuevo cartón o si se está jugando con otros usuarios.
+
+
 
 # Conclusión
 
