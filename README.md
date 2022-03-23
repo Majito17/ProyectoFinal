@@ -29,3 +29,14 @@ Es importante resaltar que Python es un lenguaje de programación imprescindible
 ![Captura de pantalla 2022-03-22 213758](https://user-images.githubusercontent.com/98360959/159613080-9c5fb34d-4ac7-4581-878f-92e3135f8981.png)
 
 Es un editor de código fuente desarrollado por Microsoft para multiples plataformas. También es personalizable, de modo que los usuarios pueden cambiar el tema del editor, los métodos abreviados de teclado y las preferencias. Cuenta con herramientas de Debug hasta opciones para actualización en tiempo real de nuestro código en la vista del navegador y compilación en vivo de los lenguajes que lo requieran. Su papel fue ser el editor de texto que usamos para el desarrollo del proyecto.
+
+# Conclusión
+
+Al pensar en automatizacion de un biengo puedes pensar primero que es bastante sencillo o tiene una idea muy básica de cómo será pero luego comienzan a salir los errores, no que los numeros no se pueden repetir, que en los cartones no logramos organizarnos como eran, como hay que divividir en los cartones. Pero la forma de solucionar estos problemas  fue algo muy útil, la mente de todos, esta siempre estuvo trabajando y dando alguno algún tipo de idea y con estos comentarios, a alguno se le iluminara la mente hasta el punto en el que logramos compactar y llevar el error a un codigo funcional pero con las ideas de todos, nos pudimos dar cuenta que atraves de los errores cambio la forma de ver el codigo, pues para la ultima parte tuvimos un error en donde no servian varios cartones entonces lo que ayudo a solucionar el problema fue un debuggin, esto logro a solucionar ese problema y tambien  pudimos entender el por que existia el error, a demas de que es curioso como tuvimos que investigar pues usamos herramientas como la mezcla de conceptos, un ejemplo son las listas, tambien investigamos conceptos que efectivamente nuestro profesor no explico. 
+Es una realidad que amplio nuestro conocimiento, nos puso al limite por errores y esa necesidad de que fuera perfecto, pero sin embargo pudimos mezclar algo que nos gusta a nosotros como el bingo, con la programacion, que anque no fue facil, los conceptos basicos, un poco de investigacion, prueba y error pero tambien importante el trabajo en equipo logramos un proyecto unico.
+
+# Referencias:
+
+-	Bingo como se Juega Paso a Paso. (2022, 22 marzo). Grand Hotelier. https://grandhotelier.com/bingo/
+-	EcuRed. (2019, 3 septiembre). Visual Studio Code - EcuRed. https://www.ecured.cu/Visual_Studio_Code
+-	Santander Universidades. (2022, 1 marzo). ¿Qué es Python? | Blog. Becas Santander. https://www.becas-santander.com/es/blog/python-que-es.html
