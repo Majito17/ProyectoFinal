@@ -50,6 +50,32 @@ Utilizamos una función para conectar el botón de sorteo al Label de que nos pe
 
 El código del prototipo de la interfaz se divide en tres, en la primera parte podemos encontrar la vista general de la ventana, cómo luce y su tamaño. En la segunda parte encontramos cómo se construyó el BINGO, utilizando la clase Label y distinguiendo cada letra colores diferentes, tenemos el relieve GROOVE para darle ese efecto de botón, aunque no lo sea. En la tercera parte, y la más larga, son los números, utilizando la clase Button para crear un ecosistema más interactivo y permitirle al usuario cubrir los números que ya han salido. Por último, encontramos los widgets de la derecha, el botón de “Nuevo cartón” y el de “Sortear” que también fueron usados con la clase Button y finalmente, encontramos la pantalla de los números, donde se utilizó la clase Label y para dar el efecto pantalla el relieve SUNKEN, con fondo blanco. 
 
+##¿Y el código bingo?
+
+
+Lo que principalmente necesitamos para poder crear un bingo era, por supuesto, la librería aleatoria, considerando la base del código, puesto que con ella obtenemos las balotas para poder jugar. Creamos una lista donde se encontrarán todos los cartones, que además son matrices 5x5, con un while True, un bucle indefinido, permitiendo al jugador crear cuántos cartones que necesitan para el bingo, siempre creando un cartón diferente.
+
+Dentro del bucle while también encontraremos varios bucles definidos, for _ in range, para obtener las 25 posiciones qué hay en la matriz 5x5 y de esa manera posicionar los números de manera aleatoria en sus respectivas filas y columbinas, teniendo en cuenta que, a cada letra de “BINGO” le corresponde un intervalo distinto de 15 números del 1 al 75, es decir, cada letra tiene 15 posibilidades de número, sin repetición.
+
+B: 1 al 15
+
+I: 16 al 30
+
+N: 31 al 45
+
+G: 46 al 60
+
+O: 61 al 75
+
+Una vez cerrado este bucle para obtener los cartones, significa que el juego ha iniciado, lo primero a obtener es la posibilidad de juego, jugando con las letras de la palabra BINGO o, en su defecto, con el tablero completo. Estas posibilidades se encuentran en una lista y utilizando random, que hemos importado anteriormente sorteamos la forma de juego con la posición de la letra o el tablero. Luego imprimiendo “Se juega con: “.
+
+La siguiente parte del código se centra en el sorteo de las balotas, utilizando una llamada variable Shuffle que hace parte de la librería aleatoria, agarrando la lista de las bolitas mezclando las balotas de forma aleatoria del 1 al 75, sabiendo que la capa posición es una número de la lista que va saliendo sin patrón. Está posición anteriormente mencionada es una variable a la que vamos recorriendo y se la va sumando uno para obtener las balotas sin repetición.
+
+También quisimos que, a medida que fueran saliendo las balotas, en los cartones se fuera reemplazando los números por equis (X) para representar que ese cartón tiene ese número e ir llenando. Utilizamos un for para recorrer todas las matrices, es decir los cartones que están jugando, para saber si el número de la balota que ha salido estaba en alguno de los cartones. Dentro del for encontramos cada una de las posibilidades, separadas por el condicional if que también tenía dentro otros if representando las posiciones de cada columna y fila, ya sea B, I, N, G o O, teniendo en cuenta el intervalo de números en los que se encuentra esa columna. 
+
+Una vez se ha encontrado una posición donde se encuentra el número de la balota, se reemplaza por un 0. 
+
+Este código se repite para que el juego pueda reconocer cuando una de las opciones de juego sea completada en alguno de los cartones y así poder anunciar que alguien a ganado el juego. Esta condición se realizó con el if final del código, señalando cuando la opción de juego sea completamente 0, por ejemplo, que toda la columna G haya sido tachada con 0, anunciando que ese cartón ha ganado la partida.
 # Conclusión
 
 Al pensar en automatizacion de un bingo puedes pensar primero que es bastante sencillo o tiene una idea muy básica de cómo será pero luego comienzan a salir los errores, no que los numeros no se pueden repetir, que en los cartones no logramos organizarnos como eran, como hay que divividir en los cartones. Pero la forma de solucionar estos problemas  fue algo muy útil, la mente de todos, esta siempre estuvo trabajando y dando alguno algún tipo de idea y con estos comentarios, a alguno se le iluminara la mente hasta el punto en el que logramos compactar y llevar el error a un codigo funcional pero con las ideas de todos, nos pudimos dar cuenta que atraves de los errores cambio la forma de ver el codigo, pues para la ultima parte tuvimos un error en donde no servian varios cartones entonces lo que ayudo a solucionar el problema fue un debuggin, esto logro a solucionar ese problema y tambien  pudimos entender el por que existia el error, a demas de que es curioso como tuvimos que investigar pues usamos herramientas como la mezcla de conceptos, un ejemplo son las listas, tambien investigamos conceptos que efectivamente nuestro profesor no explico. 
